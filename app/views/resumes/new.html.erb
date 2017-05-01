@@ -1,6 +1,7 @@
-<%= simple_form_for [@job, @resume] do |f| %>
-  <%= f.input :content %>
-  <%= f.input :attachment %>
-
-  <%= f.submit "送出" %>
-<% end %>
+<div class="col-md-10 col-centered">
+    <%= simple_form_for [@job, @resume] do |f| %>
+        <%= f.input :content %>
+        <%= f.input :attachment %>
+        <%= f.submit "送出" %>
+    <% end %>
+</div>
