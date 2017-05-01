@@ -173,7 +173,7 @@ input[type=password]:hover {
     background-image: url("header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: 110px;
     margin-top: -20px;
 
     .box-inner {
@@ -228,6 +228,18 @@ input[type=password]:hover {
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+
+.caption {
+  margin: 30px;
+  text-align: center;
+  top: 20px;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin-top: 60px;
 }
 //---------Footer---------
 .footer {
